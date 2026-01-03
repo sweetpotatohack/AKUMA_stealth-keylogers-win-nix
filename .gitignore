@@ -1,0 +1,44 @@
+# Compiled binaries
+*.exe
+stealth_keylogger
+decrypt_logs
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# Build artifacts
+build/
+dist/
+*.log
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (encrypted keylogger logs)
+*.sys_log*
+~*.tmp
+*.dat
+
+# Installation scripts (generated)
+install_linux.sh
+install_service.bat
+uninstall_linux.sh
+
+# UPX packed files
+*.upx
+
+# Test files
+/tmp/test_*
+/tmp/*.o
